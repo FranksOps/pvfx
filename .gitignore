@@ -1,0 +1,44 @@
+# Compiled Object files, Static and Dynamic libs (Shared Objects)
+*.o
+*.a
+*.so
+
+# Architecture specific folders/files
+_obj
+_test
+
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binaries and profiling data
+*.test
+*.out
+*.prof
+*.cgo1.go
+*.cgo2.c
+_cgo_defun.c
+_cgo_gotypes.go
+_cgo_export.*
+
+# IDEs, OS, and editors
+.idea/
+.vscode/
+*.swp
+*~
+.DS_Store
+
+# Go workspace files (used for local multi-module development)
+go.work
+go.work.sum
+
+# Project specific exclusions
+AGENTS.md
+AGENT.md
+
+# Ignore built CLI binaries (assuming default module or directory names)
+go-101
+pvfx
